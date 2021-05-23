@@ -4,7 +4,7 @@
 
 CREATE TABLE "GarbageRecycle2015RR" (
     "LANDFILL" varchar   NOT NULL,
-    "the_geom" SRID   NOT NULL,
+    "the_geom" varchar   NOT NULL,
     "GARB_RT" varchar   NOT NULL,
     "GARB_DAY" date   NOT NULL,
     "GARB_SUP" varchar   NOT NULL,
