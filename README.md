@@ -31,7 +31,7 @@ The reliable resources used:
 - [Cleaned](https://github.com/TheLittlePrincess/Final_project/blob/main/waste_data_etl.ipynb) the waste collection data and filtered to only utilize the 2017 data
 - We filtered and merged the garbage and waste route data into the [Routes_2017_weight data](https://github.com/TheLittlePrincess/Final_project/blob/main/routes_2017_weight.csv) - now we had the waste weight per route
 - We sampled pairs of zip codes and routes [Preliminary_zip_route_weight](https://github.com/TheLittlePrincess/Final_project/blob/Paola/Preliminary_zip_route_weight.csv)  in order to append household income data to have a preliminary dataset to run our machine learning model
-- Used the extracted sample data to create a linear regression [model](https://github.com/TheLittlePrincess/Final_project/blob/temp_model_branch/ML_rough_model.ipynb) in order to complete a predictive analysis and to show the relationship between the variables     of income and waste output. 
+- Used the extracted sample data to create a linear regression [model](https://github.com/TheLittlePrincess/Final_project/blob/Paola/ML_rough_model.ipynb) in order to complete a predictive analysis and to show the relationship between the variables     of income and waste output. 
 
 ## Summary
 After completing segment one of our analysis, we were able to complete our ETL process with reliable and concise data. We were able to execute a sample linear regression using our data and machine model we created which facilitates the process moving forward to segment two of our analysis. 
