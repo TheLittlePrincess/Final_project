@@ -9,7 +9,7 @@ Our team is using collaboration tools such as Slack, Zoom, email, and Google doc
 
 ## Resources
 The reliable resources being used:
-- Garbage and waste routes for City of Austin https://data.austintexas.gov/Locations-and-Maps/Garbage-Routes/azhh-4hg8
+- Garbage and waste routes for City of Austin 
 - Waste collection and diversion daily report 
 - Zip code boundaries for Austin
 - Household income by zip code 
