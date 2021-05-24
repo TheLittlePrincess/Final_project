@@ -27,10 +27,10 @@ The reliable resources being used:
 - Created a [schema](https://github.com/TheLittlePrincess/Final_project/blob/main/Initial_ETL.png) based on the data first gathered
 - Created a Database  in AWS
 - Created the tables in pgAdmin based on the QuickDBD [sql](https://github.com/TheLittlePrincess/Final_project/blob/main/Initial_ETL.sql) export
-- Consolidated the zip code and income data into a single file
-- Cleaned the waste collection data and filtered to only utilize the 2017 data
-- We filtered and merged the garbage and waste route data into the Routes_2017_weight data - now we had the waste weight per route
-- We sampled pairs of zip codes and routes (Preliminary_zip_route_weight)  in order to append household income data to have a preliminary dataset to run our machine   learning model
+- Consolidated the zip code and income data into a single [file](https://github.com/TheLittlePrincess/Final_project/blob/main/full_zip_codes.csv)
+- [Cleaned](https://github.com/TheLittlePrincess/Final_project/blob/main/waste_data_etl.ipynb) the waste collection data and filtered to only utilize the 2017 data
+- We filtered and merged the garbage and waste route data into the [Routes_2017_weight data](https://github.com/TheLittlePrincess/Final_project/blob/main/routes_2017_weight.csv) - now we had the waste weight per route
+- We sampled pairs of zip codes and routes [(Preliminary_zip_route_weight)] (https://github.com/TheLittlePrincess/Final_project/blob/Paola/Preliminary_zip_route_weight.csv)  in order to append household income data to have a preliminary dataset to run our machine   learning model
 - Used the extracted sample data to create a linear regression model in order to complete a predictive analysis and to show the relationship between the variables     of income and waste output. 
 
 ## Summary
