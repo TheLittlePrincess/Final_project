@@ -24,9 +24,9 @@ The reliable resources being used:
 
 ## Process
 
-- Created a schema based on the data first gathered
+- Created a [schema](https://github.com/TheLittlePrincess/Final_project/blob/main/Initial_ETL.png) based on the data first gathered
 - Created a Database  in AWS
-- Created the tables in pgAdmin based on the QuickDBD sql export
+- Created the tables in pgAdmin based on the QuickDBD [sql](https://github.com/TheLittlePrincess/Final_project/blob/main/Initial_ETL.sql) export
 - Consolidated the zip code and income data into a single file
 - Cleaned the waste collection data and filtered to only utilize the 2017 data
 - We filtered and merged the garbage and waste route data into the Routes_2017_weight data - now we had the waste weight per route
