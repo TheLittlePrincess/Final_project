@@ -8,7 +8,7 @@ The purpose of this project is to obtain an understanding of the relationship be
 Our team is using collaboration tools such as Slack, Zoom, email, and Google docs. These tools enable us to communicate and develop our ideas through the forums that are accessible to us. We are facilitating this process by creating a Slack group message, which is our main forum of communication alongside Zoom calls. We shared our contact information, our availability, topics and datasets, codes, and any points and notes that could be potentially missed by a team member. We set a consistent time for Zoom meetings that everyone can attend in order for team members to not miss any information, if at times a member has to leave we communicate on slack to ensure everyone is up to date. Email and Google docs are being used in order to have documentation of the work assigned during our calls and messages as well as progress being made. 
 
 ## Resources
-The reliable resources being used:
+The reliable resources used:
 - [Garbage and waste routes for City of Austin](https://data.austintexas.gov/Locations-and-Maps/Garbage-Routes/azhh-4hg8)
 - [Waste collection and diversion daily report](https://data.austintexas.gov/Utilities-and-City-Services/Waste-Collection-Diversion-Report-daily-/mbnu-4wq9) 
 - [Zip code boundaries for Austin](https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/export/?refine.state=TX&q=Austin)
