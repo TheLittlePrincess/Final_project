@@ -9,17 +9,17 @@ Our team is using collaboration tools such as Slack, Zoom, email, and Google doc
 
 ## Resources
 The reliable resources being used:
-Garbage and waste routes for City of Austin 
- Waste collection and diversion daily report 
- Zip code boundaries for Austin
- Household income by zip code 
+- Garbage and waste routes for City of Austin 
+- Waste collection and diversion daily report 
+- Zip code boundaries for Austin
+- Household income by zip code 
 
 ## Tools
-Excel
-Jupyter Notebook
-PgAdmin4
-AWS 
-Tableau
+- Excel
+- Jupyter Notebook
+- PgAdmin4
+- AWS 
+- Tableau
 
 
 ## Process
