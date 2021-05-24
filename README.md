@@ -10,9 +10,9 @@ Our team is using collaboration tools such as Slack, Zoom, email, and Google doc
 ## Resources
 The reliable resources being used:
 - [Garbage and waste routes for City of Austin](https://data.austintexas.gov/Locations-and-Maps/Garbage-Routes/azhh-4hg8)
-- Waste collection and diversion daily report 
-- Zip code boundaries for Austin
-- Household income by zip code 
+- [Waste collection and diversion daily report](https://data.austintexas.gov/Utilities-and-City-Services/Waste-Collection-Diversion-Report-daily-/mbnu-4wq9) 
+- [Zip code boundaries for Austin](https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/export/?refine.state=TX&q=Austin)
+- [Household income by zip code](https://www.austintexas.gov/page/demographic-data)
 
 ## Tools
 - Excel
