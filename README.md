@@ -22,7 +22,7 @@ AWS
 Tableau
 
 
-Process
+## Process
 
 Created a schema based on the data first gathered
 Created a Database  in AWS
@@ -33,7 +33,7 @@ We filtered and merged the garbage and waste route data into the Routes_2017_wei
 We sampled pairs of zip codes and routes (Preliminary_zip_route_weight)  in order to append household income data to have a preliminary dataset to run our machine learning model
 Used the extracted sample data to create a linear regression model in order to complete a predictive analysis and to show the relationship between the variables of income and waste output. 
 
-Summary
+## Summary
 After completing segment one of our analysis, we were able to complete our ETL process with reliable and concise data. We were able to execute a sample linear regression using our data and machine model we created which facilitates the process moving forward to segment two of our analysis. 
 We are not ready to analyze the full dataset yet, in the upcoming weeks we will need to correlate the zip code data to the route data, each of which has different geojson multipolygon coordinates to iterate through our model, as well as connecting it to the database.
  
