@@ -39,11 +39,11 @@ The reliable resources used:
 
 - Once found which zipcode each route belongs to, we [aggregated](https://github.com/TheLittlePrincess/Final_project/blob/main/routes_with_zips_joined_loads_dem.ipynb) the waste weight per route per zipcode, and extracted what became the source [data](https://github.com/TheLittlePrincess/Final_project/blob/main/zips_load_demographics.csv) (zips_load_demographics) that includes the total trash output per zipcode plus income, household units, etc by zipcode
 - Such source data was uploaded into our Database to feed our model
-- Then split our dataset into training/testing randomly
+- We then split our dataset into training/testing randomly
 - Through the first iteration of the  [model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML_rough_model_Week2.ipynb) we concluded that there is a linear relationship when it comes to [population](https://github.com/TheLittlePrincess/Final_project/blob/main/Trash%20output%20vs%20Population.png) but [normal](https://github.com/TheLittlePrincess/Final_project/blob/main/Trash%20output%20vs%20Median%20income.png) when it comes to income
 - From such output we’ve started toying with PCA (Principal Component Analysis) as a better alternative since it will allow us to determine what is/are the most relevant factor(s) when it comes to trash output 
 - Also, we have a set of [wireframes](https://github.com/TheLittlePrincess/Final_project/tree/main/Wireframes) to base the design of the dashboard site and have made additional progress on the [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit#slide=id.gd7b3277579_0_3643) 
 
-Summary
+## Summary
 After completing our ETL process with reliable and concise data, we have consolidated our data into a table that contains data by zipcode, including the trash output along with income and population data, we were able to upload that into our database and train a first version of our model. 
 From the conclusions reached so far we are exploring PCA as an alternative for our model and will enter the last phase of the project. 
