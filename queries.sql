@@ -19,3 +19,9 @@ ROUTE VARCHAR,
 LOAD_WEIGHT int,
 THE_GEOM VARCHAR
 );
+
+SELECT w.route, w.load_weight, r.zip_code
+FROM weight_route_2017 AS w
+INNER JOIN route_coord_zip AS r 
+ON w.route = r.route
+;
