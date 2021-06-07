@@ -21,20 +21,29 @@ The reliable resources used:
 - PgAdmin4
 - AWS 
 - Tableau
+- SQL
+- Matplotlib
 
 
 ## Process
-
-- Created a [schema](https://github.com/TheLittlePrincess/Final_project/blob/main/Initial_ETL.png) based on the data first gathered
+- Created a [schema](https://github.com/TheLittlePrincess/Final_project/blob/main/screenshots/Initial_ETL.png) based on the data first gathered
 - Created a Database  in AWS
 - Created the tables in pgAdmin based on the QuickDBD [sql](https://github.com/TheLittlePrincess/Final_project/blob/main/Initial_ETL.sql) export
 - Consolidated the zip code and income data into a single [file](https://github.com/TheLittlePrincess/Final_project/blob/main/full_zip_codes.csv)
 - [Cleaned](https://github.com/TheLittlePrincess/Final_project/blob/main/waste_data_etl.ipynb) the waste collection data and filtered to only utilize the 2017 data
-- We filtered and merged the garbage and waste route data into the [Routes_2017_weight data](https://github.com/TheLittlePrincess/Final_project/blob/main/routes_2017_weight.csv) - now we had the waste weight per route
-- We sampled pairs of zip codes and routes [Preliminary_zip_route_weight](https://github.com/TheLittlePrincess/Final_project/blob/Paola/Preliminary_zip_route_weight.csv)  in order to append household income data to have a preliminary dataset to run our machine learning model
-- Used the extracted sample data to create a linear regression [model](https://github.com/TheLittlePrincess/Final_project/blob/Paola/ML_rough_model.ipynb) in order to complete a predictive analysis and to show the relationship between the variables     of income and waste output. 
+- We filtered and merged the garbage and waste route data into the [Routes_2017_weight data](https://github.com/TheLittlePrincess/Final_project/blob/main/routes_2017_weight.csv)  - now we have the waste weight per route
+- We sampled pairs of zip codes and routes [Preliminary_zip_route_weight.csv](https://github.com/TheLittlePrincess/Final_project/blob/main/old_files/Preliminary_zip_route_weight.csv) in order to append household income data to have a preliminary dataset to run our machine learning model
+- During week one, we used the extracted sample data to create a linear regression [model](https://github.com/TheLittlePrincess/Final_project/blob/main/old_files/ML_rough_model.ipynb) in order to complete a predictive analysis and to show the relationship between the variables of income and waste output 
 
-## Summary
-After completing segment one of our analysis, we were able to complete our ETL process with reliable and concise data. We were able to execute a sample linear regression using our data and machine model we created which facilitates the process moving forward to segment two of our analysis. 
-We are not ready to analyze the full dataset yet, in the upcoming weeks we will need to correlate the zip code data to the route data, each of which has different geojson multipolygon coordinates to iterate through our model, as well as connecting it to the database.
- 
+(Deliverable 2 starts below)
+
+- Once found which zipcode each route belongs to, we [aggregated](https://github.com/TheLittlePrincess/Final_project/blob/main/routes_with_zips_joined_loads_dem.ipynb) the waste weight per route per zipcode, and extracted what became the source [data](https://github.com/TheLittlePrincess/Final_project/blob/main/zips_load_demographics.csv) (zips_load_demographics) that includes the total trash output per zipcode plus income, household units, etc by zipcode
+- Such source data was uploaded into our Database to feed our model
+- Then split our dataset into training/testing randomly
+- Through the first iteration of the  [model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML_rough_model_Week2.ipynb) we concluded that there is a linear relationship when it comes to [population](https://github.com/TheLittlePrincess/Final_project/blob/main/Trash%20output%20vs%20Population.png) but [normal](https://github.com/TheLittlePrincess/Final_project/blob/main/Trash%20output%20vs%20Median%20income.png) when it comes to income
+- From such output we’ve started toying with PCA (Principal Component Analysis) as a better alternative since it will allow us to determine what is/are the most relevant factor(s) when it comes to trash output 
+- Also, we have a set of [wireframes](https://github.com/TheLittlePrincess/Final_project/tree/main/Wireframes) to base the design of the dashboard site and have made additional progress on the [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit#slide=id.gd7b3277579_0_3643) 
+
+Summary
+After completing our ETL process with reliable and concise data, we have consolidated our data into a table that contains data by zipcode, including the trash output along with income and population data, we were able to upload that into our database and train a first version of our model. 
+From the conclusions reached so far we are exploring PCA as an alternative for our model and will enter the last phase of the project. 
