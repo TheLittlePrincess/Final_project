@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Garbage OutPu</title>
+    <title>Garbage Output by Zip Code: Austin, Texas</title>
 
     <script src="https://d3js.org/d3.v5.min.js"></script> 
 
@@ -26,10 +26,49 @@
   <a class="navbar-brand" href="team.html">Team</a>
   <a class="navbar-brand" href="process.html">Process</a>
 </nav>
-<div class=wrapper>
-  <div class="container-fluid pt-5 pb-3">
-    <div id="mapArea"></div>
+  <!-- FILTERS HERE -->
+  <div class="row">
+  <div class="container-fluid pt-5">
+  <div class="col-md-2">
+    <div class="container-fluid pt-3" id="filters">
+      <div class="container-fluid pt-3"></div>
+      <form>
+        <h5>Zip Code Options</h5>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <select id='zip-select'>
+              <option value="default">Select A Zip</option> 
+            </select>
+          </li>
+          <button id="clear-filter-btn" type="button" class="btn btn-primary">Clear Filter</button>
+        </ul>
+      </form>
+    </div>
   </div>
-  <script src="static/interactive_zipcode.js"></script>
+</div>
+<!--TABULAR IMPORT HERE-->
+<div class="container-fluid pt-5">
+  
+    <div class="col-md-10">
+    
+      <table class="table table-sm table-striped table-bordered">
+        <thead class="thead-dark">
+        <tr>
+          <th>Load Weight</th>
+          <th>Total Population</th>
+          <th>Total Households</th>
+          <th>Median Household Income</th>
+          <th>Mean Household Income</th>
+          <th>Total Housing Units</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+</div>
+</div>
+<script src="static/table.js"></script>
 </body>
 </html>
