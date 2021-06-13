@@ -44,6 +44,10 @@ The reliable resources used:
 - From such output we’ve started toying with PCA (Principal Component Analysis) as a better alternative since it will allow us to determine what is/are the most relevant factor(s) when it comes to trash output 
 - Also, we have a set of [wireframes](https://github.com/TheLittlePrincess/Final_project/tree/main/Wireframes) to base the design of the dashboard site and have made additional progress on the [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit#slide=id.gd7b3277579_0_3643) 
 
+(Deliverable 3 stars below)
+- Applied K neighbors to the model
+- Created a [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) on github pages
+
 ## Summary
 After completing our ETL process with reliable and concise data, we have consolidated our data into a table that contains data by zipcode, including the trash output along with income and population data. We were then able to upload that information into our database and train a first version of our model. 
 From the conclusions reached so far we are exploring PCA as an alternative for our model and will enter the last phase of the project. 
