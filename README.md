@@ -47,7 +47,7 @@ The reliable resources used:
 (Deliverable 3 stars below)
 - Applied K neighbors to the model
 - Created a [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) on github pages
-- Applied an interactive element to the [dashboard]((https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) 
+- Applied an interactive element to the [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) 
 - Selected Github pages as our option for the dashboard
 
 ## Summary
