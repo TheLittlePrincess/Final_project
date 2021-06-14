@@ -46,9 +46,11 @@ The reliable resources used:
 
 (Deliverable 3 stars below)
 - Applied K neighbors to the model
-- Created a [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) on github pages
-- Applied an interactive element to the [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) 
 - Selected Github pages as our option for the dashboard
+- Created a [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) on github pages
+- Included a tab for interacting with the model, one for the process and one for the [team](https://thelittleprincess.github.io/team.html)
+- Applied an interactive element to the [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) 
+
 
 ## Summary
 After completing our ETL process with reliable and concise data, we have consolidated our data into a table that contains data by zipcode, including the trash output along with income and population data. We were then able to upload that information into our database and train a first version of our model. 
