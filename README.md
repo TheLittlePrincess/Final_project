@@ -45,7 +45,8 @@ The reliable resources used:
 - Also, we have a set of [wireframes](https://github.com/TheLittlePrincess/Final_project/tree/main/Wireframes) to base the design of the dashboard site and have made additional progress on the [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit#slide=id.gd7b3277579_0_3643) 
 
 (Deliverable 3 stars below)
-- Applied K neighbors to the model
+- Performed Principal Component Analysis to reduce dimensionality of data points for model
+- Applied K-nearest-neighbors method to the machine learning model
 - Selected Github pages as our option for the dashboard
 - Created a [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) on github pages
 - Included a tab for interacting with the model, one for the process and one for the [team](https://thelittleprincess.github.io/team.html)
