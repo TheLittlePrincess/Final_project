@@ -58,5 +58,4 @@ The reliable resources used:
 
 
 ## Summary
-After completing our ETL process with reliable and concise data, we have consolidated our data into a table that contains data by zipcode, including the trash output along with income and population data. We were then able to upload that information into our database and train a first version of our model. 
-From the conclusions reached so far we are exploring PCA as an alternative for our model and will enter the last phase of the project. 
+After completing our ETL process with reliable and concise data, we have consolidated our data into a table that contains data by zipcode, including the trash output along with income and population data. We were then able to upload that information into our database and train our model. We applied PCA to the model to reduce dimensionality and are exploring both the k-nearest-neighbors and random forest methods to compare model performance and choose an optimal model.
