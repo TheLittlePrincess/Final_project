@@ -46,6 +46,7 @@ The reliable resources used:
 
 (Deliverable 3 stars below)
 - Performed Principal Component Analysis to reduce dimensionality of data points for model
+- Changed machine learning model choice from linar regression to k-nearest-neighbors and then to random forest to see performance of different models.
 - Applied K-nearest-neighbors method to the machine learning model, keeping predicted outputs as continuous values
 - Performed random forest method on machine learning model, binning the trash outputs into "low", "medium", and "high" to turn the predicted outputs into categorical values to see if this improves model's accuracy score.
 - Calculated mean absolute error and percent error on k-nearest-neighbors method to analyze performance
