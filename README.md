@@ -49,7 +49,7 @@ The reliable resources used:
 - Selected Github pages as our option for the dashboard
 - Created a [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) on github pages
 - Included a tab for interacting with the model, one for the process and one for the [team](https://thelittleprincess.github.io/team.html)
-- Applied an interactive element to the [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) 
+- Applied an interactive element to the [dashboard](https://thelittleprincess.github.io/index.html) 
 
 
 ## Summary
