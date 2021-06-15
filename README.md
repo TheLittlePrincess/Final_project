@@ -45,7 +45,7 @@ The reliable resources used:
 - Also, we have a set of [wireframes](https://github.com/TheLittlePrincess/Final_project/tree/main/Wireframes) to base the design of the dashboard site and have made additional progress on the [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit#slide=id.gd7b3277579_0_3643) 
 
 (Deliverable 3 stars below)
-- Performed Principal Component Analysis to reduce dimensionality of data points for model
+- Performed Principal Component Analysis to reduce dimensionality of data points for [model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML_MODEL_PCA_KNN_RF.ipynb)
 - Changed machine learning model choice from linar regression to k-nearest-neighbors and then to random forest to see performance of different models.
 - Applied K-nearest-neighbors method to the machine learning model, keeping predicted outputs as continuous values
 - Performed random forest method on machine learning model, binning the trash outputs into "low", "medium", and "high" to turn the predicted outputs into categorical values to see if this improves model's accuracy score.
