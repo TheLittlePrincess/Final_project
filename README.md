@@ -56,6 +56,5 @@ The reliable resources used:
 - Included a tab for interacting with the model, one for the process and one for the [team](https://thelittleprincess.github.io/team.html)
 - Applied an interactive element to the [dashboard](https://thelittleprincess.github.io/index.html) 
 
-
 ## Summary
 After completing our ETL process with reliable and concise data, we have consolidated our data into a table that contains data by zipcode, including the trash output along with income and population data. We were then able to upload that information into our database and train our model. We applied PCA to the model to reduce dimensionality and are exploring both the k-nearest-neighbors and random forest methods to compare model performance and choose an optimal model.
