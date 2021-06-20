@@ -37,27 +37,29 @@ Resources:
 
 
 Segment 2
-- Once found which zipcode each route belongs to, we aggregated the waste weight per route per zipcode, and extracted what became the source [data](https://github.com/TheLittlePrincess/Final_project/blob/main/zips_load_demographics.csv) (zips_load_demographics) that includes the total trash output, median income, household units, and population by zipcode
+- Once found which zipcode each route belongs to, we aggregated the waste weight per route per zipcode, and extracted what became the source data
+-  Created a file that includes the total trash output, median income, household units, and population by zipcode (zips_load_demographics) 
 - Source data was then uploaded into our database to feed our model
-- We split our dataset randomly into training/testing 
+- Split our dataset randomly into training/testing 
 - Through the first iteration of the model we concluded that there is a linear relationship when it comes to population but normal when it comes to income
-- From such output started toying with PCA (Principal Component Analysis) as a better alternative since it will allowed us to determine what is/are the most relevant factor(s) when it comes to trash output 
-- Also, we have a set of wireframes to base the design of the dashboard site and have made additional progress on the presentation.
+- Due to results we started toying with PCA (Principal Component Analysis) as an alternative since it would allow us to determine what is/are the most relevant factor(s) when it comes to trash output 
+- Gathered a set of wireframes to base the design of the dashboard site 
+- Progress made to presentation as additional data and information was gathered
 
-(Deliverable 3 starts below)
-- Performed Principal Component Analysis to reduce dimensionality of data points for [model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML_MODEL_PCA_KNN_RF.ipynb)
-- Changed machine learning model choice from linar regression to k-nearest-neighbors and then to random forest to see performance of different models.
-- Applied K-nearest-neighbors method to the machine learning model, keeping predicted outputs as continuous values
-- Performed random forest method on machine learning model, binning the trash outputs into "low", "medium", and "high" to turn the predicted outputs into categorical values to see if this improves model's accuracy score.
+Segment 3
+- Performed Principal Component Analysis to reduce dimensionality of data points for model
+- Changed machine learning model choice from linear regression to K-nearest-neighbors and random forest to test performance on different models
+- Applied K-nearest-neighbors method to the machine learning model, kept predicted outputs as continuous values
+- Performed random forest method on machine learning model, binned the trash outputs into "low", "medium", and "high" to turn the predicted outputs into categorical values to see if this improves model's accuracy score.
 - Calculated mean absolute error and percent error on k-nearest-neighbors method to analyze performance
 - Calculated accuracy score on random forest method after changing outputs to categorical values to analyze model performance
-- Selected Github pages as our option for the dashboard
-- Created a [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) on github pages
-- Included a tab for interacting with the model, one for the process and one for the [team](https://thelittleprincess.github.io/team.html)
-- Applied an interactive element to the [dashboard](https://thelittleprincess.github.io/index.html) 
+- Selected Github pages as our option to deploy the dashboard
+- Created a dashboard on github pages
+- Included a tab for interacting with the model, one for the process and one for the team
+- Applied an interactive element to the dashboard
 
-(Deliverable 4 starts below)
-- We have additional updates on the [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit?ts=60a28a65#slide=id.ge0f3ac10eb_1_110)
-
+Segment 4
+- We have additional updates on the presentation
+- 
 ## Summary
 After completing our ETL process with reliable and concise data, we have consolidated our data into a table that contains data by zipcode, including the trash output along with income and population data. We were then able to upload that information into our database and train our model. We applied PCA to the model to reduce dimensionality and are exploring both the k-nearest-neighbors and random forest methods to compare model performance and choose an optimal model.
