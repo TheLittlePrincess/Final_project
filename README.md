@@ -38,11 +38,11 @@ Resources:
 
 Segment 2
 - Once found which zipcode each route belongs to, we aggregated the waste weight per route per zipcode, and extracted what became the source [data](https://github.com/TheLittlePrincess/Final_project/blob/main/zips_load_demographics.csv) (zips_load_demographics) that includes the total trash output, median income, household units, and population by zipcode
-- Such source data was uploaded into our [database](https://github.com/TheLittlePrincess/Final_project/blob/Database/ML_rough_model_Week2.ipynb) to feed our model
-- We then split our dataset into training/testing randomly
-- Through the first iteration of the  [model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML_rough_model_Week2.ipynb) we concluded that there is a linear relationship when it comes to [population](https://github.com/TheLittlePrincess/Final_project/blob/main/Trash%20output%20vs%20Population.png) but [normal](https://github.com/TheLittlePrincess/Final_project/blob/main/Trash%20output%20vs%20Median%20income.png) when it comes to income
-- From such output we’ve started toying with PCA (Principal Component Analysis) as a better alternative since it will allow us to determine what is/are the most relevant factor(s) when it comes to trash output 
-- Also, we have a set of [wireframes](https://github.com/TheLittlePrincess/Final_project/tree/main/Wireframes) to base the design of the dashboard site and have made additional progress on the [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit#slide=id.gd7b3277579_0_3643) 
+- Source data was then uploaded into our database to feed our model
+- We split our dataset randomly into training/testing 
+- Through the first iteration of the model we concluded that there is a linear relationship when it comes to population but normal when it comes to income
+- From such output started toying with PCA (Principal Component Analysis) as a better alternative since it will allowed us to determine what is/are the most relevant factor(s) when it comes to trash output 
+- Also, we have a set of wireframes to base the design of the dashboard site and have made additional progress on the presentation.
 
 (Deliverable 3 starts below)
 - Performed Principal Component Analysis to reduce dimensionality of data points for [model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML_MODEL_PCA_KNN_RF.ipynb)
