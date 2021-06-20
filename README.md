@@ -26,14 +26,14 @@ The reliable resources used:
 
 
 ## Process
-- Created a [schema](https://github.com/TheLittlePrincess/Final_project/blob/main/screenshots/Initial_ETL.png) based on the data first gathered
+- Created a schema based on the data first gathered
 - Created a Database  in AWS
-- Created the tables in pgAdmin based on the QuickDBD [sql](https://github.com/TheLittlePrincess/Final_project/blob/main/Initial_ETL.sql) export
-- Consolidated the zip code and income data into a single [file](https://github.com/TheLittlePrincess/Final_project/blob/main/full_zip_codes.csv)
-- [Cleaned](https://github.com/TheLittlePrincess/Final_project/blob/main/waste_data_etl.ipynb) the waste collection data and filtered to only utilize the 2017 data
-- We filtered and merged the garbage and waste route data into the [Routes_2017_weight data](https://github.com/TheLittlePrincess/Final_project/blob/main/routes_2017_weight.csv)  - now we have the waste weight per route
-- We sampled pairs of zip codes and routes [Preliminary_zip_route_weight.csv](https://github.com/TheLittlePrincess/Final_project/blob/main/old_files/Preliminary_zip_route_weight.csv) in order to append household income data to have a preliminary dataset to run our machine learning model
-- During week one, we used the extracted sample data to create a linear regression [model](https://github.com/TheLittlePrincess/Final_project/blob/main/old_files/ML_rough_model.ipynb) in order to complete a predictive analysis and to show the relationship between the variables of income and waste output 
+- Created the tables in pgAdmin based on the QuickDBD sql export
+- Consolidated the zip code and income data into a single file
+- Cleaned the waste collection data and filtered to only utilize the 2017 data
+- We filtered and merged the garbage and waste route data into the Routes_2017_weight_data file - now we have the waste weight per route
+- We sampled pairs of zip codes and routes, Preliminary_zip_route_weight.csv, in order to append household income data to have a preliminary dataset to run our machine learning model
+- During week one, we used the extracted sample data to create a linear regression model in order to complete a predictive analysis and to show the relationship between the variables of income and waste output 
 
 (Deliverable 2 starts below)
 
@@ -44,7 +44,7 @@ The reliable resources used:
 - From such output we’ve started toying with PCA (Principal Component Analysis) as a better alternative since it will allow us to determine what is/are the most relevant factor(s) when it comes to trash output 
 - Also, we have a set of [wireframes](https://github.com/TheLittlePrincess/Final_project/tree/main/Wireframes) to base the design of the dashboard site and have made additional progress on the [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit#slide=id.gd7b3277579_0_3643) 
 
-(Deliverable 3 stars below)
+(Deliverable 3 starts below)
 - Performed Principal Component Analysis to reduce dimensionality of data points for [model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML_MODEL_PCA_KNN_RF.ipynb)
 - Changed machine learning model choice from linar regression to k-nearest-neighbors and then to random forest to see performance of different models.
 - Applied K-nearest-neighbors method to the machine learning model, keeping predicted outputs as continuous values
@@ -55,6 +55,9 @@ The reliable resources used:
 - Created a [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io) on github pages
 - Included a tab for interacting with the model, one for the process and one for the [team](https://thelittleprincess.github.io/team.html)
 - Applied an interactive element to the [dashboard](https://thelittleprincess.github.io/index.html) 
+
+(Deliverable 4 starts below)
+- 
 
 ## Summary
 After completing our ETL process with reliable and concise data, we have consolidated our data into a table that contains data by zipcode, including the trash output along with income and population data. We were then able to upload that information into our database and train our model. We applied PCA to the model to reduce dimensionality and are exploring both the k-nearest-neighbors and random forest methods to compare model performance and choose an optimal model.
