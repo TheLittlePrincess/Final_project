@@ -28,10 +28,10 @@ The reliable resources used:
 ## Process
 - Created a schema based on the data first gathered
 - Created a Database  in AWS
-- Created the tables in pgAdmin based on the QuickDBD sql export
+- Created tables in pgAdmin based on the QuickDBD sql export
 - Consolidated the zip code and income data into a single file
-- Cleaned the waste collection data and filtered to only utilize the 2017 data
-- We filtered and merged the garbage and waste route data into the Routes_2017_weight_data file - now we have the waste weight per route
+- Cleaned and filtered the waste collection data to only utilize 2017 data
+- We filtered and merged the garbage and waste route data into the Routes_2017_weight_data file, to obtain the waste weight per route
 - We sampled pairs of zip codes and routes, Preliminary_zip_route_weight.csv, in order to append household income data to have a preliminary dataset to run our machine learning model
 - During week one, we used the extracted sample data to create a linear regression model in order to complete a predictive analysis and to show the relationship between the variables of income and waste output 
 
