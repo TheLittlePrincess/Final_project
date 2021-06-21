@@ -17,12 +17,17 @@ Resources:
 
 ## Tools
 - Excel
-- Jupyter Notebook
+- Jupyter & Colab notebooks
 - PgAdmin4
 - AWS 
 - Tableau
 - SQL
 - Matplotlib
+- Visual Studio
+- Python
+- Pandas & Geopandas
+- html/ccs
+- Java
 
 
 ## Process
