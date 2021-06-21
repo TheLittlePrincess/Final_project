@@ -71,4 +71,4 @@ Segment 4
 
 ## Summary
 After completing our ETL process with reliable and concise data, we have consolidated the information gathered into a table that contains data by zipcode. This included the trash output along with income and population data. We were then able to upload that information into our database and train our model. We applied PCA to the model to reduce dimensionality and explored both the k-nearest-neighbors and random forest methods to compare model performance and choose an optimal model. 
-After exploring multiple options we chose random forest, then used m2cgen to translated to js and be able to connect it to our dashboard to give a prediction based on some inputs.
+After exploring multiple models we chose random forest, we then used m2cgen to translate to javascript to be able to connect it to our dashboard to give a prediction based on some inputs. 
