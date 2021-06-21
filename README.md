@@ -64,11 +64,10 @@ Segment 3
 - Applied an interactive element to the  [dashboard](https://thelittleprincess.github.io/index.html)
 
 Segment 4
-- We have additional ML updates - narrow it down to the RandomForest.
+- After testing different machine learning models on our data, we determined that the best model to use is the random forest classifier, as it grants us the flexibility to have our predictions fall into a defined bucket of low, medium, or high trash output.
 - Used M2cgen to translate the model to JS
 - Incorporated the prediction capabilities into the [presentation] (https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit?ts=60a28a65#slide=id.gddfcfba4d3_0_35)
-- Completed the dashboard so it is able to predict based on the data entered wheather is a low, medium or high trash predictor
+- Completed the dashboard so it is able to predict whether an area is a low, medium or high trash producer based on demographics inputs.
 
 ## Summary
-After completing our ETL process with reliable and concise data, we have consolidated the information gathered into a table that contains data by zipcode. This included the trash output along with income and population data. We were then able to upload that information into our database and train our model. We applied PCA to the model to reduce dimensionality and explored both the k-nearest-neighbors and random forest methods to compare model performance and choose an optimal model. 
-After exploring multiple models we chose random forest, we then used m2cgen to translate to javascript to be able to connect it to our dashboard to give a prediction based on some inputs. 
+After completing our ETL process with reliable and concise data, we have consolidated the information gathered into a table that contains data by zipcode. This included the trash output along with income and population data. We were then able to upload that information into our database and train our model. We explored PCA, linear regression, k-nearest-neighbors and the random forest methods to compare model performance and choose an optimal model. After exploring multiple models, we chose the random forest classifier. We then used m2cgen to translate the model to javascript to connect it to our dashboard so that it predicts an output value based on prediction inputs.
