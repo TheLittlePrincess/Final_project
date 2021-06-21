@@ -66,7 +66,7 @@ Segment 3
 Segment 4
 - After testing different machine learning models on our data, we determined that the best model to use is the random forest classifier, as it grants us the flexibility to have our predictions fall into a defined bucket of low, medium, or high trash output.
 - Used M2cgen to translate the model to JS
-- Incorporated the prediction capabilities into the [presentation] (https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit?ts=60a28a65#slide=id.gddfcfba4d3_0_35)
+- Incorporated the prediction capabilities into the [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit?ts=60a28a65#slide=id.gddfcfba4d3_0_35)
 - Completed the dashboard so it is able to predict whether an area is a low, medium or high trash producer based on demographics inputs.
 
 ## Summary
