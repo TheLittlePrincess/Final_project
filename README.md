@@ -66,7 +66,7 @@ Segment 3
 Segment 4
 - We have additional ML updates - narrow it down to the RandomForest.
 - Used M2cgen to translate the model to JS
-- Incorporated the prediction capabilities into the [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit?ts=60a28a65#slide=id.gddfcfba4d3_0_13)
+- Incorporated the prediction capabilities into the [presentation] (https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit?ts=60a28a65#slide=id.gddfcfba4d3_0_35)
 - Completed the dashboard so it is able to predict based on the data entered wheather is a low, medium or high trash predictor
 
 ## Summary
