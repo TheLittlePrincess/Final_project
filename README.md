@@ -70,4 +70,5 @@ Segment 4
 - Completed the dashboard so it is able to predict based on the data entered wheather is a low, medium or high trash predictor
 
 ## Summary
-After completing our ETL process with reliable and concise data, we have consolidated our data into a table that contains data by zipcode, including the trash output along with income and population data. We were then able to upload that information into our database and train our model. We applied PCA to the model to reduce dimensionality and are exploring both the k-nearest-neighbors and random forest methods to compare model performance and choose an optimal model.
+After completing our ETL process with reliable and concise data, we have consolidated the information gathered into a table that contains data by zipcode. This included the trash output along with income and population data. We were then able to upload that information into our database and train our model. We applied PCA to the model to reduce dimensionality and explored both the k-nearest-neighbors and random forest methods to compare model performance and choose an optimal model. 
+After exploring multiple options we chose random forest, then used m2cgen to translated to js and be able to connect it to our dashboard to give a prediction based on some inputs.
