@@ -47,7 +47,7 @@ Segment 2
 - Progress made to [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit#slide=id.gd7b3277579_0_3643)  as additional data and information was gathered
 
 Segment 3
-- Performed Principal Component Analysis to reduce dimensionality of data points for[model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML_MODEL_PCA_KNN_RF.ipynb)
+- Performed Principal Component Analysis to reduce dimensionality of data points for [model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML%20Process/ML_MODEL_PCA_KNN_RF.ipynb)
 - Changed machine learning model choice from linear regression to K-nearest-neighbors and random forest to test performance on different models
 - Applied K-nearest-neighbors method to the machine learning model, kept predicted outputs as continuous values
 - Performed random forest method on machine learning model, binned the trash outputs into "low", "medium", and "high" to turn the predicted outputs into categorical values to see if this improves model's accuracy score.
