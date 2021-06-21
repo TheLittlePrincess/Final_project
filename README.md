@@ -32,14 +32,14 @@ Resources:
 - Consolidated the zip code and income data into a single [file](https://github.com/TheLittlePrincess/Final_project/blob/main/full_zip_codes.csv)
 - [Cleaned](https://github.com/TheLittlePrincess/Final_project/blob/main/waste_data_etl.ipynb) and filtered the waste collection data to only utilize 2017 data
 - We filtered and merged the garbage and waste route data into the [Routes_2017_weight](https://github.com/TheLittlePrincess/Final_project/blob/main/routes_2017_weight.csv), to obtain the waste weight per route
-- We sampled pairs of zip codes and routes,[Preliminary_zip_route_weight.csv](https://github.com/TheLittlePrincess/Final_project/blob/main/old_files/Preliminary_zip_route_weight.csv), in order to append household income data to have a preliminary dataset to run our machine learning [model](https://github.com/TheLittlePrincess/Final_project/blob/main/old_files/ML_rough_model.ipynb)
+- We sampled pairs of zip codes and routes, [Preliminary_zip_route_weight.csv](https://github.com/TheLittlePrincess/Final_project/blob/main/old_files/Preliminary_zip_route_weight.csv), in order to append household income data to have a preliminary dataset to run our machine learning [model](https://github.com/TheLittlePrincess/Final_project/blob/main/old_files/ML_rough_model.ipynb)
 - During week one, we used the extracted sample data to create a linear regression model in order to complete a predictive analysis and to show the relationship between the variables of income and waste output 
 
 
 Segment 2
-- Once found which zipcode each route belongs to, we aggregated the waste weight per route per zipcode, and extracted what became the source data
+- Once found which zipcode each route belongs to, we [aggregated](https://github.com/TheLittlePrincess/Final_project/blob/main/routes_with_zips_joined_loads_dem.ipynb) the waste weight per route per zipcode, and extracted what became the source data
 -  Created a file that includes the total trash output, median income, household units, and population by zipcode (zips_load_demographics) 
-- Source data was then uploaded into our database to feed our model
+- Source data was then uploaded into our [database](https://github.com/TheLittlePrincess/Final_project/blob/Database/ML_rough_model_Week2.ipynb) to feed our [model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML_rough_model_Week2.ipynb) 
 - Split our dataset randomly into training/testing 
 - Through the first iteration of the model we concluded that there is a linear relationship when it comes to population but normal when it comes to income
 - Due to results we started toying with PCA (Principal Component Analysis) as an alternative since it would allow us to determine what is/are the most relevant factor(s) when it comes to trash output 
