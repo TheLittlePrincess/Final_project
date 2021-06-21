@@ -38,30 +38,31 @@ Resources:
 
 Segment 2
 - Once found which zipcode each route belongs to, we [aggregated](https://github.com/TheLittlePrincess/Final_project/blob/main/routes_with_zips_joined_loads_dem.ipynb) the waste weight per route per zipcode, and extracted what became the source data
--  Created a file that includes the total trash output, median income, household units, and population by zipcode (zips_load_demographics) 
+-  Created a [file](https://github.com/TheLittlePrincess/Final_project/blob/main/zips_load_demographics.csv) that includes the total trash output, median income, household units, and population by zipcode (zips_load_demographics) 
 - Source data was then uploaded into our [database](https://github.com/TheLittlePrincess/Final_project/blob/Database/ML_rough_model_Week2.ipynb) to feed our [model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML_rough_model_Week2.ipynb) 
 - Split our dataset randomly into training/testing 
-- Through the first iteration of the model we concluded that there is a linear relationship when it comes to population but normal when it comes to income
+- Through the first iteration of the model we concluded that there is a linear relationship when it comes to [population](https://github.com/TheLittlePrincess/Final_project/blob/main/Trash%20output%20vs%20Population.png)  but [normal](https://github.com/TheLittlePrincess/Final_project/blob/main/Trash%20output%20vs%20Median%20income.png) when it comes to income
 - Due to results we started toying with PCA (Principal Component Analysis) as an alternative since it would allow us to determine what is/are the most relevant factor(s) when it comes to trash output 
-- Gathered a set of wireframes to base the design of the dashboard site 
-- Progress made to presentation as additional data and information was gathered
+- Gathered a set of [wireframes](https://github.com/TheLittlePrincess/Final_project/tree/main/Wireframes) to base the design of the dashboard site 
+- Progress made to [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit#slide=id.gd7b3277579_0_3643)  as additional data and information was gathered
 
 Segment 3
-- Performed Principal Component Analysis to reduce dimensionality of data points for model
+- Performed Principal Component Analysis to reduce dimensionality of data points for[model](https://github.com/TheLittlePrincess/Final_project/blob/main/ML_MODEL_PCA_KNN_RF.ipynb)
 - Changed machine learning model choice from linear regression to K-nearest-neighbors and random forest to test performance on different models
 - Applied K-nearest-neighbors method to the machine learning model, kept predicted outputs as continuous values
 - Performed random forest method on machine learning model, binned the trash outputs into "low", "medium", and "high" to turn the predicted outputs into categorical values to see if this improves model's accuracy score.
 - Calculated mean absolute error and percent error on k-nearest-neighbors method to analyze performance
 - Calculated accuracy score on random forest method after changing outputs to categorical values to analyze model performance
-- Selected Github pages as our option to deploy the dashboard
+- Selected Github pages as our option to deploy the [dashboard](https://github.com/TheLittlePrincess/TheLittlePrincess.github.io)
 - Created a dashboard on github pages
-- Included a tab for interacting with the model, one for the process and one for the team
-- Applied an interactive element to the dashboard
+- Included a tab for interacting with the model, one for the process and one for the [team](https://thelittleprincess.github.io/team.html)
+- Applied an interactive element to the  [dashboard](https://thelittleprincess.github.io/index.html)
 
 Segment 4
 - We have additional ML updates - narrow it down to the RandomForest.
 - Used M2cgen to translate the model to JS
 - Incorporated the prediction capabilities into the [presentation](https://docs.google.com/presentation/d/1ff6geuibB3INIdmVZ1MCOf6o9UUcdfSww27aJYee5uw/edit?ts=60a28a65#slide=id.gddfcfba4d3_0_13)
 - Completed the dashboard so it is able to predict based on the data entered wheather is a low, medium or high trash predictor
+
 ## Summary
 After completing our ETL process with reliable and concise data, we have consolidated our data into a table that contains data by zipcode, including the trash output along with income and population data. We were then able to upload that information into our database and train our model. We applied PCA to the model to reduce dimensionality and are exploring both the k-nearest-neighbors and random forest methods to compare model performance and choose an optimal model.
